@@ -80,6 +80,22 @@ public class Code {
 	* interest rate (as a percentage), the number of periods (n), and the periodical payment.
 	*/
 	private static double endBalance(double loan, double rate, int n, double payment) {
+<<<<<<< HEAD
+=======
+
+		double balance = 0 ;
+		double currentBalance = loan ; 
+		
+		for(int i =1 ; i <= n ; i++){
+
+			balance = (currentBalance - payment)*(1+(rate/100)) ;
+			currentBalance = balance ; 
+		}
+
+    	return balance ;
+	}
+}
+>>>>>>> 612bab863267e9d5a335f0054ca5191c7d9e509c
 
 		double balance = 0 ;
 		double currentBalance = loan ; 
