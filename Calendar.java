@@ -13,22 +13,25 @@ public class Calendar {
         int IsYear = Integer.parseInt(args[0]);
 	    
 	    String s = "Sunday";
-		int a = IsYear+1;
-	 	
 		
 		
-		while (year <= IsYear){
-			advance();
+	 	year = IsYear;
+		
+		
+		while (month <= 12 && year==IsYear){
 			
-			if ( dayOfWeek==7){
+			
+			
+			  if ( dayOfWeek==7){
 				System.out.println(dayOfMonth+"/"+month+"/"+year + " " + s);
-				
-			} 
-			else {
-
-			} System.out.println(dayOfMonth+"/"+month+"/"+year);}
-			
+			} else {
+				System.out.println(dayOfMonth+"/"+month+"/"+year);
+            } 
+              advance();
 		}
+	}
+			
+		
 	 
 	
 	
