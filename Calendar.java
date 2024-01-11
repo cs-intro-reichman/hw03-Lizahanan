@@ -22,7 +22,7 @@ public class Calendar {
 			
 			
 			
-			  if ( dayOfWeek==1){
+			  if ( dayOfWeek==7){
 				System.out.println(dayOfMonth+"/"+month+"/"+year + " " + s);
 			} else {
 				System.out.println(dayOfMonth+"/"+month+"/"+year);
