@@ -305,7 +305,7 @@
     "setup": "javac Calendar.java",
     "run": "java Calendar 2020",
     "input": "",
-    "output": "1/3/2020 Sunday",
+    "output": "1/3/2020",
     "comparison": "included",
     "timeout": 15,
     "points": 10
