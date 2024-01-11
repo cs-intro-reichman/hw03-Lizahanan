@@ -29,7 +29,7 @@ public class Calendar1 {
 	 		}   if (dayOfWeek==1&&dayOfMonth==1){
 				sundayCount++;
 			}
-			if (dayOfWeek==1){
+			if (dayOfWeek==1){ 
 				System.out.println(dayOfMonth+"/"+month+"/"+year + " " + s);
 				
 			} 
