@@ -26,10 +26,10 @@ public class Calendar1 {
 	 		if (dayOfMonth==1&&month==1&&year==2000) { 
 
 	 			break;
-	 		}   if (dayOfWeek==1&&dayOfMonth==1){
+	 		}   if (dayOfWeek==7&&dayOfMonth==1){
 				sundayCount++;
 			}
-			if (dayOfWeek==1){ 
+			if (dayOfWeek==7){ 
 				System.out.println(dayOfMonth+"/"+month+"/"+year + " " + s);
 				
 			} 
